@@ -2,7 +2,7 @@ This is the data and code for paper
 [Robust Textual Embedding against Word-level Adversarial Attacks (UAI 2022)](https://arxiv.org/abs/2202.13817).
 
 ## Datesets
-There are three datasets used in our experiments. Download and uncompress them to the directory  `./data/`. Rename their paths to `./data/imdb`, `./data/yelp/` and `./data/yahoo/`, respectively.
+There are three datasets used in our experiments. Download and uncompress them to the directory `./data/imdb`, `./data/yelp/` and `./data/yahoo/`, respectively.
 
 - [IMDB](https://s3.amazonaws.com/fast-ai-nlp/imdb.tgz)
 - [Yelp-5](https://s3.amazonaws.com/fast-ai-nlp/yelp_review_full_csv.tgz)
