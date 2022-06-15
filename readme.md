@@ -37,7 +37,7 @@ Download and put `glove.840B.300d.txt`, `counter-fitted-vectors.txt`, `pytorch_m
 
     Depending on the dataset you want to use, the `--task_name` field can be `imdb`, `yelp`, or `yahoo`.
 
-    You could use our pregenerated data by downloading [aux_files](https://drive.google.com/file/d/1lh5gMVkDEqKjoZD1beXtjya5QgY6Pvmq/view?usp=sharing) and place `aux_files` into the dictionary `./data/`.
+    **You could use our pregenerated data by downloading [aux_files](https://drive.google.com/file/d/1lh5gMVkDEqKjoZD1beXtjya5QgY6Pvmq/view?usp=sharing) and place `aux_files` into the dictionary `./data/`.**
 
 2. Training the model with standard trainig:
 
@@ -63,7 +63,7 @@ Download and put `glove.840B.300d.txt`, `counter-fitted-vectors.txt`, `pytorch_m
 
     The `--num_train_epochs` is `20` for `imdb` and `5` for `yelp` and `yahoo`.
 
-    You could also use our trained model by downloading [models](https://drive.google.com/file/d/1ackInH0I-wfLwZxfsYrslbhYQlKLYX6o/view?usp=sharing).
+    **You could also use our trained model by downloading [models](https://drive.google.com/file/d/1ackInH0I-wfLwZxfsYrslbhYQlKLYX6o/view?usp=sharing).**
 
 5. Attacking the model of FTML using the attack GA:
 
@@ -90,7 +90,7 @@ Download and put `glove.840B.300d.txt`, `counter-fitted-vectors.txt`, `pytorch_m
     ```shell
     python bert_classifier_ftml.py --data_dir ./data/ --task_name imdb --output_dir model/bert-imdb-ftml --do_train --do_eval --do_lower_case --num_train_epochs 20
     ```
-    You could also use our trained model by downloading [models](https://drive.google.com/file/d/1ackInH0I-wfLwZxfsYrslbhYQlKLYX6o/view?usp=sharing).
+    **You could also use our trained model by downloading [models](https://drive.google.com/file/d/1ackInH0I-wfLwZxfsYrslbhYQlKLYX6o/view?usp=sharing).**
 
 4. Attacking the model of FTML using the attack GA:
     
